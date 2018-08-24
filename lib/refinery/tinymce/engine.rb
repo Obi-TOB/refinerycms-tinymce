@@ -8,9 +8,6 @@ module Refinery
 
       # set the manifests and assets to be precompiled
       config.to_prepare do
-        puts "------------------------"
-        puts "It's getting configured!"
-        puts "------------------------"
         Rails.application.config.assets.precompile += %w(
           tinymce/themes/modern/theme.js
           refinery-fix.css
