@@ -1,13 +1,14 @@
 /* IMPORTS STYLES USED FOR SITE */
-@import 'tinymce/skins/lightgray/skin.min.css';
-@import 'tinymce/skins/lightgray/content.min.css';
-@import 'application.css';
+//@import url(asset-path("tinymce/skins/lightgray/skin.min.css"));
+//@import url(asset-path("tinymce/skins/lightgray/content.min.css"));
+//@import url(asset-path("application.css"));
+@import url(asset-path("spree/frontend/all.css"));
 
-body.mce-content-body {
-  margin: 20px;
-}
-
-html, body {
-  background-image: none !important;
-  background-color: white;
-}
+//body.mce-content-body {
+//  margin: 20px;
+//}
+//
+//html, body {
+//  background-image: none !important;
+//  background-color: white;
+//}
